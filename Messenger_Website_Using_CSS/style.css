@@ -1,0 +1,176 @@
+/* Central wrapper for the content */
+.mother {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+/* Menu bar at the top */
+.menu {
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+/* Logo should float to the left */
+.logo {
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+/* Menu items should float to the right */
+.menuItems {
+    float: right;
+}
+
+.menuItem {
+    text-decoration: none;
+    color: #333;
+    margin-left: 20px;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.menuItem:hover {
+    border-bottom: 2px solid #0a7cff;
+}
+
+
+/* Container holding the left and right sections */
+.container {
+    overflow: hidden; 
+}
+
+/* Left column (text + inputs) */
+.left {
+    width: 45%; 
+    float: left; 
+    margin-right: 5%; 
+}
+
+/* Styling for the inner content of the left side */
+.inner {
+    width: 100%;
+}
+
+/* Right column (image) */
+.right {
+    width: 50%; /* Adjusts the width for the image section */
+    float: left; /* Floats the right section */
+    text-align: right; /* Aligns the image to the right */
+}
+
+.rightImage {
+    max-width: 100%; 
+    height: auto; 
+}
+
+/* Header and description styles */
+.header {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+/* Input fields and button styling */
+.blockElement {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    background-color: #f2f2f2;
+    font-size: 16px;
+}
+
+.signInButton {
+    background-color: #0a7cff;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.signInButton:hover {
+    background-color: #005bb5; 
+}
+
+/* App store images */
+.appStoreImage {
+    width: 135px;
+    height: auto;
+    margin-right: 10px;
+}
+
+/* Footer section styling */
+.footer {
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 14px;
+    color: #100f0f;
+    border-top: 1px solid #ddd;
+    overflow: hidden; 
+}
+
+/* Aligns left side content */
+.footer-left {
+    float: left;
+    width: 40%;
+    font-size: 12px;
+    color: #777;
+}
+
+/* Center the policy links */
+.footer-center {
+    text-align: center;
+    width: 20%;
+    float: left;
+}
+
+.footer-center a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #666;
+}
+
+.footer-center a:hover {
+    text-decoration: underline;
+}
+
+/* Aligns right side content */
+.footer-right {
+    float: right;
+    width: 40%;
+    text-align: right;
+}
+
+.footer-right span {
+    margin-right: 15px;
+}
+
+.footer-right strong {
+    font-weight: bold;
+    color: #000;
+}
+
+
+/* Clear float fix for container after floats */
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.password {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

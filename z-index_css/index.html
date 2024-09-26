@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            padding: 100px;
+            justify-content: center;
+        }
+        img {
+            width: 25%;
+            transform: rotate(20deg);
+            border: 15px solid #14213d;
+        }
+        .second {
+            z-index: 1;
+        }
+        .first {
+            z-index: 2;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- z-index -->
+     <div class="container">
+        <img src="images/image1.jpg" alt="First Image" class="first"/>
+        <img src="images/image2.jpg" alt="Second Image" class="second"/>
+        <img src="images/image3.jpg" alt="Third Image" class="third"/>
+     </div>
+</body>
+</html>
